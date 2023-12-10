@@ -1,4 +1,4 @@
-# Repository with Examples for My [Blog on tvOS Tips and Tricks]([your_blog_link_here](https://bozidarlabas.com/neuron/tvOSBlogPost.html))
+# Repository with Examples for My [Blog on tvOS Tips and Tricks](https://bozidarlabas.com/neuron/tvOSBlogPost.html)
 
 This repository serves as an example companion to my blog post on *tvOS tips and tricks*.
 
