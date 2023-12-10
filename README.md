@@ -12,3 +12,7 @@ Additionally, the blog post covers the following sections:
 - **UI Implementation**
 - **Key Differences Between iOS and tvOS App Development**
 - **tvOS Restrictions**
+
+##
+
+![Example Image](Assets/example_gif_1.gif)
