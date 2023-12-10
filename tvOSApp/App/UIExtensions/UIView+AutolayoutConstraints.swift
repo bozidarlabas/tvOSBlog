@@ -104,10 +104,6 @@ extension UIView {
         topAnchor.constraint(equalTo: view.topAnchor, constant: constant).isActive = true
     }
     
-//    func bottomAnchorToSuperview(constant: CGFloat = 0) -> NSLayoutConstraint {
-//        bottomAnchor.constraint(equalTo: superview!.bottomAnchor, constant: -constant)
-//    }
-    
     func bottomAnchorToSuperview(constant: CGFloat = 0) {
         bottomAnchor.constraint(equalTo: superview!.bottomAnchor, constant: -constant).isActive = true
     }
@@ -124,10 +120,6 @@ extension UIView {
         bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -constant).isActive = true
     }
     
-//    func centerYAnchorToSuperview() -> NSLayoutConstraint {
-//        centerYAnchor.constraint(equalTo: superview!.centerYAnchor)
-//    }
-    
     func centerYAnchorToSuperview(constant: CGFloat = 0) {
         centerYAnchor.constraint(equalTo: superview!.centerYAnchor, constant: constant).isActive = true
     }
@@ -135,10 +127,6 @@ extension UIView {
     func centerXAnchorToSuperview(constant: CGFloat = 0) {
         centerXAnchor.constraint(equalTo: superview!.centerXAnchor, constant: constant).isActive = true
     }
-    
-//    func centerYAnchorToView(view: UIView) -> NSLayoutConstraint {
-//        centerYAnchor.constraint(equalTo: view.centerYAnchor)
-//    }
     
     func centerYAnchorToView(view: UIView, constant: CGFloat = 0) {
         centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: constant).isActive = true
